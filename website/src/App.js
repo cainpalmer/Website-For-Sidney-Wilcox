@@ -9,7 +9,8 @@ const App = () => {
   return (
     <div >
       <Router>
-        <span>
+        <span id = 'nav'>
+        <img src = '../public/logo/IMG_0391.png' alt = 'Hair By Sid Logo'></img>
           <a><Link to = '/'>Home</Link></a>
           <a><Link to = '/portfolio'>Portfolio</Link></a>
           <a><Link to = '/about'>About</Link></a>
@@ -25,7 +26,8 @@ const App = () => {
             <About />
           </Route>
         </Switch>
-        <span>
+        <span id = 'nav'>
+        <img src = '../public/logo/IMG_0391.png' alt = 'Hair By Sid Logo'></img>
           <a><Link to = '/'>Home</Link></a>
           <a><Link to = '/portfolio'>Portfolio</Link></a>
           <a><Link to = '/about'>About</Link></a>
