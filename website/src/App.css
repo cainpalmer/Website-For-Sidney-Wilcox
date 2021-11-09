@@ -196,6 +196,13 @@ nav {
   display: flex;
 }
 
+.options button {
+  border-radius: 2rem;
+  background-color: grey;
+  border: 2px solid white;
+  font-style: italic;
+}
+
 .option-1 {
   background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
   background-repeat: no-repeat;
