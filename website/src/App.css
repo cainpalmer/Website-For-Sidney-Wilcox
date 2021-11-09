@@ -152,3 +152,9 @@ nav {
   color: black;
   display: block;
 }
+
+@media (max-width: 400px) {
+  .about-bio {
+    width: 70%;
+  }
+}
