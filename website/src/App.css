@@ -58,15 +58,17 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 5px solid white;
 }
 
 .footer {
-  margin: 0;
+  margin: auto;
   padding: 8px;
   background-color: lightpink;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 5px solid white;
 }
 
 .about {
@@ -78,8 +80,10 @@ a {
 }
 
 .about-h1 {
-  font-size: 200%;
+  font-size: 300%;
   padding: 2rem;
+  color: white;
+  font-style: italic;
 }
 
 .about-bio {
@@ -88,7 +92,7 @@ a {
   border-radius: 1rem;
   border-color: black;
   padding: 2rem;
-  width: 30%;
+  width: 21%;
 }
 
 .header-image {
@@ -97,9 +101,9 @@ a {
 }
 
 .about-image {
-  border-radius: 12rem;
+  border-radius: 13rem;
   margin: auto;
-  padding: auto;
+  border: 5px solid white;
 }
 
 nav {
@@ -109,12 +113,36 @@ nav {
 }
 
 .handles {
-  margin-right: auto;
-  padding: 1rem;
   display: inline-block;
+  padding: 0.5rem;
+  text-align: left;
   color: white;
 }
 
 .about-profile {
   padding: 0.5rem;
+}
+
+#search {
+  width: 40%;
+  font-size: 16px;
+  padding:10px;
+  border: 1px solid lightgrey;
+}
+
+#ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ul li a {
+  border: 1px solid white;
+  margin-top: -1px;
+  background-color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
 }
