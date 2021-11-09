@@ -17,9 +17,9 @@ const App = () => {
           <img class = 'header-image' width = '100px' height = '100px' src = {IMG_0391} alt = 'Hair By Sid Logo' />
           <input type = 'text' id = 'search' onkeyup = 'searchBar()' placeholder = 'Search...' />
           <nav>
-            <a><Link to = '/'>Home</Link></a>
-            <a><Link to = '/portfolio'>Portfolio</Link></a>
-            <a><Link to = '/about'>About</Link></a>
+            <Link to = '/'>Home</Link>
+            <Link to = '/portfolio'>Portfolio</Link>
+            <Link to = '/about'>About</Link>
           </nav>
         </div>
         <Switch>
@@ -41,9 +41,9 @@ const App = () => {
             <a href = 'https://www.tiktok.com/'><img class = 'twitter-png' width = '20px' height = '20px' src = {tiktok} alt = 'tiktok logo' /></a>
           </span>
           <nav>
-            <a><Link to = '/'>Home</Link></a>
-            <a><Link to = '/portfolio'>Portfolio</Link></a>
-            <a><Link to = '/about'>About</Link></a>
+            <Link to = '/'>Home</Link>
+            <Link to = '/portfolio'>Portfolio</Link>
+            <Link to = '/about'>About</Link>
           </nav>
         </div>
       </Router>
