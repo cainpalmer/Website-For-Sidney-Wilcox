@@ -3,14 +3,24 @@ import {BrowserRouter, Link} from 'react-router-dom';
 
 function Home() {
     return (
-        <div>
-            <div>
+        <div class = 'home'>
+            <div class = 'home-image'>
                 <h1>Hair By Sid</h1>
+                <h3>Feel Beautiful</h3>
             </div>
-            <div id = 'hair'>
+            <div class = 'options'>
+                <div class = 'option-1'>
+                <h3>An Amazing Experience</h3>
                 <BrowserRouter>
                     <button classname = 'move'><Link id = 'see-hair' to = '/portfolio'>Check out my work!</Link></button>
                 </BrowserRouter>
+                </div>
+                <div class = 'option-2'>
+                <h3>My Mission</h3>
+                <BrowserRouter>
+                    <button classname = 'move'><Link id = 'see-hair' to = '/about'>Learn about me!</Link></button>
+                </BrowserRouter>
+                </div>
             </div>
         </div>
     )

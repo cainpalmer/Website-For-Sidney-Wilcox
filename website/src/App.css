@@ -43,6 +43,12 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
 a {
   text-decoration: none;
   padding: 5px;
@@ -70,6 +76,19 @@ a {
   justify-content: space-between;
   border: 5px solid white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .about {
   margin: auto;
@@ -128,6 +147,12 @@ nav {
   padding: 0.5rem;
 }
 
+
+
+
+
+
+
 #search {
   width: 40%;
   font-size: 16px;
@@ -151,6 +176,64 @@ nav {
   font-size: 18px;
   color: black;
   display: block;
+}
+
+
+
+
+
+
+
+
+.home {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.options {
+  margin: auto;
+  display: flex;
+}
+
+.option-1 {
+  background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
+  background-repeat: no-repeat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  width: 50%;
+  border: 5px solid white;
+  color: white;
+  font-style: italic;
+}
+
+.option-2 {
+  background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
+  background-repeat: no-repeat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  width: 50%;
+  border: 5px solid white;
+  color: white;
+  font-style: italic;
+}
+
+.home-image {
+  margin: auto;
+  padding: 12rem;
+  background-repeat: no-repeat;
+  background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
+}
+
+.home-image h1 {
+  color: white;
+  font-size: 300%;
+  font-style: italic;
+}
+
+.home-image h3 {
+  color: white;
+  font-style: italic;
 }
 
 @media (max-width: 400px) {
