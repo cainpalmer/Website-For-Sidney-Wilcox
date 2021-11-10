@@ -21,6 +21,9 @@ function Portfolio() {
                 <img class = 'hair-image' src = {two} alt = 'Hair By Sid' />
                 </div>
             </div>
+            <div class = 'seperator'>
+                <h3>Client Before and After</h3>
+            </div>
             <div class = 'work'>
             <div class = 'work-1'>
                 <img class = 'hair-image' src = {three} alt = 'Hair By Sid' />
@@ -29,6 +32,7 @@ function Portfolio() {
                 <img class = 'hair-image-odd' src = {four} alt = 'Hair By Sid' />
                 </div>
             </div>
+            <div class = 'seperator'></div>
             <div class = 'work'>
             <div class = 'work-1'>
                 <img class = 'hair-image' src = {five} alt = 'Hair By Sid' />

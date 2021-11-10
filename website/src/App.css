@@ -187,7 +187,13 @@ nav {
 }
 
 
-
+.seperator {
+  background-image: url('https://wallpaperaccess.com/full/2413558.jpg');
+  margin: auto;
+  background-repeat: no-repeat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 
 
 
