@@ -111,7 +111,7 @@ a {
   border-radius: 1rem;
   border-color: black;
   padding: 2rem;
-  width: 50%;
+  width: 30%;
 }
 
 .about-image {
@@ -301,18 +301,38 @@ nav {
   font-style: italic;
 }
 
-@media (max-width: 280px) {
-
-  .about-bio {
-    width: 90%;
-  }
-
-}
-
 @media (max-width: 400px) {
 
   .portfolio-image h1 {
     font-size: 100%;
+  }
+
+
+  .about-bio {
+    background-color: white;
+    margin: auto;
+    border-radius: 1rem;
+    border-color: black;
+    padding: 1rem;
+    width: 90%;
+  }
+
+
+  .about-image {
+    background-color: white;
+    margin: auto;
+    border-radius: 12rem;
+    border-color: black;
+    padding: 0.5rem;
+    width: 71%;
+  }
+
+  .about-profile {
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
 }
