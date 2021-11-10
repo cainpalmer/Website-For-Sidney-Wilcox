@@ -1,13 +1,41 @@
 import React from 'react';
+import one from '../images/hair/one.jpg';
+import two from '../images/hair/two.jpg';
+import three from '../images/hair/three.jpg';
+import four from '../images/hair/four.jpg';
+import five from '../images/hair/five.jpg';
+import six from '../images/hair/six.jpg';
 
 function Portfolio() {
     return (
-        <div>
-            <div>
-                <h1>Sidney's Portfolio</h1>
+        <div class = 'home'>
+            <div class = 'home-image'>
+                <h1>Work Portfolio</h1>
+                <h3>From Sidney Wilcox</h3>
             </div>
-            <div>
-                <p>Stuff Goes Here</p>
+            <div class = 'work'>
+                <div class = 'work-1'>
+                <img class = 'hair-image' src = {one} alt = 'Hair By Sid' />
+                </div>
+                <div class = 'work-2'>
+                <img class = 'hair-image' src = {two} alt = 'Hair By Sid' />
+                </div>
+            </div>
+            <div class = 'work'>
+            <div class = 'work-1'>
+                <img class = 'hair-image' src = {three} alt = 'Hair By Sid' />
+                </div>
+                <div class = 'work-2'>
+                <img class = 'hair-image-odd' src = {four} alt = 'Hair By Sid' />
+                </div>
+            </div>
+            <div class = 'work'>
+            <div class = 'work-1'>
+                <img class = 'hair-image' src = {five} alt = 'Hair By Sid' />
+                </div>
+                <div class = 'work-2'>
+                <img class = 'hair-image' src = {six} alt = 'Hair By Sid' />
+                </div>
             </div>
         </div>
     )

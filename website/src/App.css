@@ -88,7 +88,7 @@ a {
 
 
 
-
+/* About */
 
 .about {
   margin: auto;
@@ -111,6 +111,15 @@ a {
   border-radius: 1rem;
   border-color: black;
   padding: 2rem;
+  width: 50%;
+}
+
+.about-image {
+  background-color: white;
+  margin: auto;
+  border-radius: 12rem;
+  border-color: black;
+  padding: 0.5rem;
   width: 21%;
 }
 
@@ -119,11 +128,6 @@ a {
   padding: 1rem;
 }
 
-.about-image {
-  border-radius: 13rem;
-  margin: auto;
-  border: 5px solid white;
-}
 
 nav {
   display: inline-block;
@@ -144,7 +148,11 @@ nav {
 }
 
 .about-profile {
-  padding: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 
@@ -193,7 +201,10 @@ nav {
 
 .options {
   margin: auto;
-  display: flex;
+}
+
+.work {
+  margin: auto;
 }
 
 .options button {
@@ -204,35 +215,76 @@ nav {
 }
 
 .option-1 {
-  background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
+  background-image: url('https://static.wixstatic.com/media/8ddfc54557334e96a2eac37ab491e1c5.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01/8ddfc54557334e96a2eac37ab491e1c5.webp');
   background-repeat: no-repeat;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  width: 50%;
   border: 5px solid white;
   color: white;
   font-style: italic;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .option-2 {
-  background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
+  background-image: url('https://speckyboy.com/wp-content/uploads/2021/05/colorful-abstract-desktop-4k-wallpaper-01.jpg');
   background-repeat: no-repeat;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  width: 50%;
   border: 5px solid white;
   color: white;
   font-style: italic;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.work-1 {
+  background-image: url('https://wallpaperaccess.com/full/2797527.jpg');
+  background-repeat: no-repeat;
+  border: 5px solid white;
+  color: white;
+  font-style: italic;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.work-2 {
+  background-image: url('https://wallpaperaccess.com/full/2797527.jpg');
+  background-repeat: no-repeat;
+  border: 5px solid white;
+  color: white;
+  font-style: italic;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.hair-image {
+  background-color: white;
+  margin: auto;
+  border-color: black;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.hair-image-odd {
+  background-color: white;
+  margin: auto;
+  border-color: black;
+  padding: 0.5rem;
+  width: 35%;
 }
 
 .home-image {
   margin: auto;
-  padding: 12rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   background-repeat: no-repeat;
-  background-image: url('https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg');
+  background-image: url('https://tipsmake.com/data2/images/download-wallpaper-surface-laptop-4-picture-2-4pr7Ugx6f.jpg');
 }
 
 .home-image h1 {
+  color: white;
+  font-size: 300%;
+  font-style: italic;
+}
+
+.portfolio-image h1 {
   color: white;
   font-size: 300%;
   font-style: italic;
@@ -243,8 +295,54 @@ nav {
   font-style: italic;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 280px) {
+
   .about-bio {
-    width: 70%;
+    width: 90%;
   }
+
+}
+
+@media (max-width: 400px) {
+
+  .portfolio-image h1 {
+    font-size: 100%;
+  }
+  
+}
+
+@media (min-width: 400px) {
+
+  .options {
+    display: flex;
+  }
+
+  .option-1 {
+    width: 50%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  .option-2 {
+    width: 50%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .work {
+    display: flex;
+  }
+
+  .work-1 {
+    width: 50%;
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+  
+  .work-2 {
+    width: 50%;
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+
 }
