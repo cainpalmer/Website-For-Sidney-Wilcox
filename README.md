@@ -1,2 +1,2 @@
 # Website-For-Sidney-Wilcox
-A website for Sidney Wilcox
+A portfolio website to show off cosmetology skills for a client
